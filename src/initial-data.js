@@ -1,9 +1,9 @@
 const initialData = {
   tasks: {
-    "task-1": { id: "task-1", content: "Sortir Jackie" },
-    "task-2": { id: "task-2", content: "Preparer un gateau" },
-    "task-3": { id: "task-3", content: "Faire de l'essence" },
-    "task-4": { id: "task-4", content: "Acheter de la bière" }
+    "task-1": { id: "task-1", content: "Sortir Katie 🐕" },
+    "task-2": { id: "task-2", content: "Preparer un gateau 🍰" },
+    "task-3": { id: "task-3", content: "Faire de l'essence 🏎️" },
+    "task-4": { id: "task-4", content: "Acheter de la bière 🍺" }
   },
   columns: {
     "column-1": {
@@ -24,5 +24,6 @@ const initialData = {
   },
   columnOrder: ["column-1", "column-2", "column-3"]
 };
+console.log("The truth is out there 👽");
 
 export default initialData;
